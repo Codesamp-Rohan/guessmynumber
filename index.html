@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess The Number...</title>
+  </head>
+  <body>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bevan&family=Grandiflora+One&family=Inter&family=Poppins:wght@900&family=Press+Start+2P&family=Quicksand:wght@300&family=Rock+3D&display=swap");
+    </style>
+    <div class="heading">
+      <button class="again"><h1>Again?</h1></button>
+      <h1>< between 1 to 20 ></h1>
+    </div>
+    <main>
+      <h1>GUESS MY NUMBER?</h1>
+      <span class="mainContent">
+        <span class="number"><h1 class="guessNumber">?</h1></span>
+      </span>
+      <div class="lowerContent">
+        <div class="leftLowerContent">
+          <input type="number" placeholder="No.?" class="enterNumber" />
+          <button class="check"><h1>CHECK!</h1></button>
+        </div>
+        <div class="rightLowerContent">
+          <p class="message">Start Guessing...</p>
+          <span class="SCORE">
+          <p>Score: <p class="score">20</p></p>
+          </span>
+          <span class="SCORE">
+          <p>Highest Score: <p class="highScore">0</p></p>
+          </span>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
