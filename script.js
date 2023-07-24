@@ -27,6 +27,9 @@ document.querySelector(".check").addEventListener("click", function () {
       "CORRECT ANSWER BOOM BAM!!";
     document.querySelector(".guessNumber").textContent = "🙆🏿🙆🏿‍♂️🙆🏿‍♀️";
     document.querySelector(".highScore").textContent = score;
+    document.querySelector("body").style.backgroundColor = "black";
+    document.querySelector("body").style.color = "white";
+    document.querySelector("button").style.color = "white";
   } else if (guess > number + 5) {
     document.querySelector(".message").textContent = "TOO HIGH!!";
     score = score - 1;
